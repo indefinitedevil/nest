@@ -31,6 +31,7 @@ h1,h2,h3,h4,h5,h6,
 .entry-title, .entry-title a {
     color: #85c396;
 }
+.navigation-main .current_page_ancestor > a,
 .navigation-main .current_page_item > a, .navigation-main .current-menu-item > a {
     color: #85c396;
     border-color: #85c396;
