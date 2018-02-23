@@ -11,3 +11,27 @@
  Text Domain:  bushwick
  Tags:         photography, blog, two-columns, custom-header, custom-menu, editor-style, featured-images, flexible-header, microformats, rtl-language-support, sticky-post, translation-ready
 */
+
+/* colour change */
+a,
+.navigation-main li:hover > a,
+.entry-title a:hover {
+    color: #68b38d;
+}
+h1,h2,h3,h4,h5,h6,
+.single .entry-title, .page .entry-title, .site-header .post-navigation a,
+.navigation-main a,
+.menu-toggle, .navigation-main .widget-handle {
+    color: #457753;
+}
+.navigation-main li:hover > a {
+    border-color: #85c396;
+}
+.comment-author .url,
+.entry-title, .entry-title a {
+    color: #85c396;
+}
+.navigation-main .current_page_item > a, .navigation-main .current-menu-item > a {
+    color: #85c396;
+    border-color: #85c396;
+}
