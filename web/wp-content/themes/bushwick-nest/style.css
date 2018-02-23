@@ -21,12 +21,19 @@ a,
 h1,h2,h3,h4,h5,h6,
 .single .entry-title, .page .entry-title, .site-header .post-navigation a,
 .navigation-main a,
-.menu-toggle, .navigation-main .widget-handle {
+.menu-toggle, .navigation-main .widget-handle,
+.comment-author .fn{
     color: #457753;
 }
+blockquote,
 .navigation-main li:hover > a {
     border-color: #85c396;
 }
+.menu-toggle:before:hover,
+.toggled .menu-toggle,
+.navigation-main .widget-handle:hover:before,
+.navigation-main .widget-handle.open:before,
+.entry-summary p:first-of-type:before,
 .comment-author .url,
 .entry-title, .entry-title a {
     color: #85c396;
@@ -35,4 +42,26 @@ h1,h2,h3,h4,h5,h6,
 .navigation-main .current_page_item > a, .navigation-main .current-menu-item > a {
     color: #85c396;
     border-color: #85c396;
+}
+blockquote cite {
+    color: #47333d;
+}
+mark, ins {
+    background-color: #f9ffc0;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.more-link,
+#infinite-handle span {
+    background-color: #457753;
+}
+button:hover,
+html input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+.more-link:hover,
+#infinite-handle span:hover {
+    background-color: #68b38d;
 }
