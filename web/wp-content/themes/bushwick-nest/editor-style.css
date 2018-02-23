@@ -1,0 +1,19 @@
+a {
+    color: #68b38d;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #457753;
+}
+
+blockquote {
+    border-color: #85c396;
+}
+
+blockquote cite {
+    color: #33473d;
+}
+
+mark, ins {
+    background-color: #f9ffc0;
+}

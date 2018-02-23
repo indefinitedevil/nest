@@ -5,3 +5,11 @@ function nest_enqueue_styles() {
 }
 
 add_action('wp_enqueue_scripts', 'nest_enqueue_styles');
+
+function nest_setup() {
+    add_editor_style(array(
+        'editor-style.css',
+    ));
+}
+
+add_action('after_setup_theme', 'nest_setup', 20);
