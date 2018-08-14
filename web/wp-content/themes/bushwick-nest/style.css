@@ -20,7 +20,7 @@ a,
 }
 
 h1, h2, h3, h4, h5, h6,
-.single .entry-title, .page .entry-title, .site-header .post-navigation a,
+.single .entry-title, .entry-title a, .page .entry-title, .site-header .post-navigation a,
 .navigation-main a,
 .menu-toggle, .navigation-main .widget-handle,
 .comment-author .fn {
