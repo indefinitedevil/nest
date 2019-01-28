@@ -11,10 +11,6 @@ msgstr ""
 "Language: en_GB\n"
 "Project-Id-Version: Themes - Twenty Nineteen\n"
 
-#. Description of the theme
-msgid "A new Gutenberg-ready theme."
-msgstr "A new Gutenberg-ready theme."
-
 #. Theme Name of the theme
 msgid "Twenty Nineteen"
 msgstr "Twenty Nineteen"
@@ -39,7 +35,7 @@ msgstr "<span class=\"meta-nav\">Published in</span><br><span class=\"post-title
 msgid "Back"
 msgstr "Back"
 
-#: inc/template-functions.php:208
+#: inc/template-functions.php:209
 msgid "More"
 msgstr "More"
 
@@ -155,9 +151,9 @@ msgstr "Previous"
 msgid "Next"
 msgstr "Next"
 
-#: image.php:52 template-parts/content/content.php:49
+#: image.php:52 template-parts/content/content-page.php:27
+#: template-parts/content/content.php:49
 #: template-parts/content/content-single.php:40
-#: template-parts/content/content-page.php:27
 msgid "Pages:"
 msgstr "Pages:"
 
@@ -263,10 +259,10 @@ msgstr "Y"
 msgid "Archives:"
 msgstr "Archives:"
 
-#. translators: %s: Name of current post. Only visible to screen readers.
 #. translators: %s: Name of current post. Only visible to screen readers
-#: inc/template-tags.php:120 template-parts/content/content-page.php:41
-#: template-parts/header/entry-header.php:32
+#. translators: %s: Name of current post. Only visible to screen readers.
+#: template-parts/content/content-page.php:41
+#: template-parts/header/entry-header.php:32 inc/template-tags.php:120
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
 msgstr "Edit <span class=\"screen-reader-text\">%s</span>"
 
@@ -296,20 +292,20 @@ msgstr "One reply on &ldquo;%s&rdquo;"
 msgid "Leave a comment"
 msgstr "Leave a comment"
 
-#: classes/class-twentynineteen-walker-comment.php:92
+#: classes/class-twentynineteen-walker-comment.php:100
 msgid "Your comment is awaiting moderation."
 msgstr "Your comment is awaiting moderation."
 
-#: classes/class-twentynineteen-walker-comment.php:87
+#: classes/class-twentynineteen-walker-comment.php:95
 msgid "Edit"
 msgstr "Edit"
 
 #. translators: 1: comment date, 2: comment time
-#: classes/class-twentynineteen-walker-comment.php:79
+#: classes/class-twentynineteen-walker-comment.php:87
 msgid "%1$s at %2$s"
 msgstr "%1$s at %2$s"
 
-#: classes/class-twentynineteen-walker-comment.php:59
+#: classes/class-twentynineteen-walker-comment.php:67
 msgid "%s <span class=\"screen-reader-text says\">says:</span>"
 msgstr "%s <span class=\"screen-reader-text says\">says:</span>"
 
